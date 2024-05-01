@@ -46,7 +46,7 @@ const Login = () => {
         console.log(userData);
         function updatemnthCount(mnt,n){
             let updateData=userData.map((data)=>{
-                if(data.month==mnt){
+                if(data.month===mnt){
                     return {...data,"count":n+1}
                 }
                 else{

@@ -13,7 +13,7 @@ const Userdetails = () => {
       console.log(res.data);
       setState(res.data);
     }).catch(()=>{console.log("Data not found..!");})
-  },[])
+  },[id])
 
   return (
     <div className={styles.viewUserContainer}>

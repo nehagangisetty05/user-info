@@ -35,7 +35,7 @@ const Register = () => {
                 console.log(res);
                 navigate("/")
                 toast.success("Registration successfull !!!")
-            }) .catch(()=>{
+            }).catch(()=>{
                 console.log("data not fetched..");
             })
         }
