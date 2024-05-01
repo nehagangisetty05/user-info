@@ -1,0 +1,62 @@
+{
+  "user": [
+    {
+      "id": "71aa",
+      "name": "swapna",
+      "email": "swapna@gmail.com",
+      "password": "swapna",
+      "gender": "female",
+      "date": "27/04/2024"
+    },
+    {
+      "id": "80e4",
+      "name": "Neha",
+      "email": "neha@gmail.com",
+      "password": "neha",
+      "gender": "female",
+      "date": "30/04/2024",
+      "25/04/2024": "01-01-2024"
+    },
+    {
+      "id": "b943",
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "gender": "male",
+      "date": "25/04/2024"
+    },
+    {
+      "id": "0429",
+      "name": "jaya",
+      "email": "jaya@gmail.com",
+      "password": "jaya",
+      "gender": "female",
+      "date": "25/04/2024"
+    },
+    {
+      "id": "473d",
+      "name": "Mourya",
+      "email": "mourya@gmail.com",
+      "password": "Mourya@123",
+      "gender": "male",
+      "date": "27/04/2024",
+      "count": 0
+    },
+    {
+      "id": "621c",
+      "name": "Anil",
+      "email": "anil@gmail.com",
+      "password": "Anil@123",
+      "gender": "male",
+      "date": "27/04/2024"
+    },
+    {
+      "id": "3356",
+      "name": "Harathi",
+      "email": "harathi@gmail.com",
+      "password": "harathi",
+      "gender": "female",
+      "date": "27/04/2024"
+    }
+  ]
+}
