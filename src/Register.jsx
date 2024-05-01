@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import styles from './styles.module.css'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
@@ -12,7 +12,7 @@ const Register = () => {
         gender : ""
     })
 
-    let [date, setDate] = useState(new Date());
+    let [date] = useState(new Date());
 
     let navigate = useNavigate();
 

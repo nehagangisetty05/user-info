@@ -8,7 +8,7 @@ const Login = () => {
         name : "",
         password : ""
     })
-    let [date, setDate] = useState(new Date());
+    let [date] = useState(new Date());
 
     let navigate = useNavigate();
 
@@ -18,7 +18,7 @@ const Login = () => {
         let {name, value} = e.target;
         setState({...state, [name]:value})
     }
-    let [MonthsList,setMonthsList]=useState([
+    let [MonthsList]=useState([
         {month:"Jan",count:2},
         {month:"feb",count:5},
         {month:"mar",count:1},
